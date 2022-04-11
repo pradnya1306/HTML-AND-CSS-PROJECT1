@@ -1,0 +1,104 @@
+*{
+    margin:0%;
+padding: 0%;
+}
+
+.maindiv{
+    height:400px;
+    background-image:url("mountan.jpeg") ;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-bottom: 150px;
+    
+}
+
+.box1{
+    padding: 20px;
+    height: 150px;
+    width: 170px;
+    font-family: 'Open Sans',sans-serif;
+    color:white;
+    text-align: center;
+    background-color: #6da2d9;
+    margin-left: 160px;
+    margin-top: 300px;
+       
+}
+.img1{
+    height: 35px;
+    width: 35px;
+    filter: brightness(100);
+    
+    
+}
+.p1{
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: -20px;
+
+}
+.box2{
+    padding:20px;
+    height: 150px;
+    width: 170px;
+    background-color:#ea6710;
+    font-family: 'Open Sans',sans-serif;
+    color:white;
+    text-align: center;
+    margin-top: 300px;
+}
+.img2{
+    height: 35px;
+    width: 35px;
+    filter: brightness(100);
+ 
+}
+.p2{
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: -20px;
+}
+.box3{
+    padding:20px;
+    height: 150px;
+    width: 170px;
+    background-color:#fb3700;;
+    font-family: 'Open Sans',sans-serif;
+    color:white;
+    text-align: center;
+    margin-right: 160px;
+    margin-top: 300px;
+
+}
+.img3{
+    height: 35px;
+    width: 35px;
+    filter: brightness(100);
+ 
+}
+.p3{
+    font-size: 10px;
+    line-height: 15px;
+    margin-top:-20px
+}
+.footer{
+    height: 50px;
+    /* position:fixed; */
+    color: white;
+    bottom:0;
+    left:0;
+    width:100%;
+
+    /* border: 1px solid black; */
+    background-color:#333;
+    font-size: 8px;
+    text-align: center;
+}
+a{
+    color:#6da2d9;
+}
+p{
+    padding:20px;
+}
