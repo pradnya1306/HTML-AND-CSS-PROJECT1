@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <img class="img1" src="background_img.jpg" alt="">
+        <h1 class="head1">SP Fullstack Developer ltd. </h1>
+    </header>
+    <div class="marq">
+        <marquee behavior="alternate" direction=""><h1>"Here your dreams comes true"</h1></marquee>
+    </div>
+        <form class="form" action="">
+            <div class="maindiv">
+                <!-- <h1 class="main_h1">welcome</h1> -->
+                <div class="head2"><b>Employee Registration form</b></div>
+                <div class="user_box">
+                    <label >First Name :</label>
+                    <input class="input" type="text" placeholder="First Name" >
+                </div>
+                <div class="user_box">
+                    <label >Last Name :</label>
+                    <input class="input" class="input"type="text" placeholder="last Name">
+                </div>
+                <div class="user_box">
+                    <label >Birth Date :</label>
+                    <input class="input" type="date" value="">
+                </div>
+                <div class="user_box">
+                    <label >E-mail :</label>
+                    <input class="email" type="email" placeholder="e-mail id" value="">
+                </div>
+                <div class="user_box">
+                    <label >Phone No :</label>
+                    <input class="phone"type="text" placeholder="phone number">
+                </div>
+                <div class="user_box">
+                    <label >Company Name :</label>
+                    <input class="com" type="text" placeholder="company name" >
+                </div>
+                <div class="user_box">
+                    <label >Country :</label>
+                    <input class="country" list="state" >
+                        <datalist id="state">
+                            <option value="America"></option>
+                            <option value="Austrellia"></option>
+                            <option value="India"></option>
+                            <option value="shrilanka"></option>
+                            <option value="Nepal"></option>
+                            <option value="Pakistan"></option>
+                        </datalist>
+                </div>
+                <div class="user_box">
+                    <label >Malling Address :</label>
+                    <textarea class="mail"name="maliiing" id="malling" cols="30" rows="10" placeholder="give your address here"></textarea>
+                    
+                </div>
+                <div class="user_box">
+                    <label >Comment :</label>
+                    <textarea class="comment" name="comment" id="comment" cols="30" rows="10" placeholder="give your comment here"></textarea>
+                    
+                </div>
+                <div class="user_box">
+                    <label > Current Date :</label>
+                    <input class="input" type="date">
+                </div>
+                <div class="user_box">
+                    <input class="submit"type="submit" value="submit" onclick="myfunction()">
+                </div>
+            </div>
+        </form>
+        <script>
+            function myfunction(){
+                alert("Hello\n Your Form has been Submitted")
+            }
+        </script>
+    
+</body>
+</html>
